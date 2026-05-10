@@ -150,13 +150,13 @@ C:\CompanyData\
 
 * Final access controlled by NTFS (most restrictive)
 
-![HR_ACCESS_SHARING](screenshots/Share_permissions/HR_ACCESS_SHARING.png)
+![HR_ACCESS_SHARING](screenshots/Shared_permissions/HR_ACCESS_SHARING.png)
 
-![IT_ADMINS_SHARING](screenshots/Share_permissions/IT_ADMINS_SHARING.png)
+![IT_ADMINS_SHARING](screenshots/Shared_permissions/IT_ADMINS_SHARING.png)
 
-![FINANCE_ACCESS_SHARING](screenshots/Share_permissions/FINANCE_ACCESS_SHARING.png)
+![FINANCE_ACCESS_SHARING](screenshots/Shared_permissions/FINANCE_ACCESS_SHARING.png)
 
-![SHARED_ACCESS_SHARING](screenshots/Share_permissions/SHARED_ACCESS_SHARING.png)
+![SHARED_ACCESS_SHARING](screenshots/Shared_permissions/SHARED_ACCESS_SHARING.png)
 
 
 
