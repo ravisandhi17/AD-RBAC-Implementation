@@ -1,13 +1,13 @@
-# 🔐 AD-RBAC-Implementation
+#  AD-RBAC-Implementation
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates **Role-Based Access Control (RBAC)** implementation using **Active Directory** and **NTFS permissions** in a Windows Server environment.
 
 The goal is to ensure that users can only access resources based on their job roles (HR_Dept, IT_Dept, Finance_Dept).
 
 
-## 🏗️ Lab Environment
+##  Lab Environment
 
 
 * Windows Server (Domain Controller / ROOTDC Name- Server1)
@@ -22,7 +22,7 @@ The goal is to ensure that users can only access resources based on their job ro
 * Domain-joined client machine(PC1)
 
 
-## 📂 Active Directory Structure
+##  Active Directory Structure
 
 
 ### Organizational Units (OUs)
@@ -42,7 +42,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ![OU_CREATED](screenshots/OU_USERS_GROUPS/OU_CREATED.png)
 
 
-## 👥 Users
+##  Users
 
 
 ### HR_Dept
@@ -74,7 +74,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ![FINANCEDEPT_USERS](screenshots/OU_USERS_GROUPS/FINANCEDEPT_USERS.png)
 
 
-## 🔐 Security Groups (RBAC Roles)
+##  Security Groups (RBAC Roles)
 
 * HR_Access
 
@@ -104,7 +104,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ![SHARED_ACCESS_MEMBERS](screenshots/OU_USERS_GROUPS/SHARED_ACCESS_MEMBERS.png)
 
 
-## 📁 Folder Structure
+##  Folder Structure
 
 C:\CompanyData\
 
@@ -119,7 +119,7 @@ C:\CompanyData\
 ![COMPANY_DATA_FOLDERS](screenshots/OU_USERS_GROUPS/COMPANY_DATA_FOLDERS.png)
 
 
-## 🔐 Permissions Design
+##  Permissions Design
 
 ### NTFS Permissions
 
@@ -160,16 +160,16 @@ C:\CompanyData\
 
 
 
-## 🧪 Access Testing (Proof of RBAC)
+##  Access Testing (Proof of RBAC)
 
 ### HR Users
 
-* Access HR_Share → ✅ Allowed
+* Access HR_Share →  **Allowed**
  
 ![HRDEPT_TO_HR_SHARE_WORK](screenshots/verification/HRDEPT_TO_HR_SHARE_WORK.png)
 
 
-* Access Finance_Share → ❌ Denied
+* Access Finance_Share →  **Denied**
 
 ![HRDEPT_TO_FINANCE_SHARE_DENY](screenshots/verification/HRDEPT_TO_FINANCE_SHARE_DENY.png)
 
@@ -180,11 +180,11 @@ C:\CompanyData\
 
 ### IT Users
 
-* Access IT_Share → ✅ Allowed
+* Access IT_Share →  **Allowed**
 
 ![ITDEPT_TO_IT_SHARE_WORK](screenshots/verification/ITDEPT_TO_IT_SHARE_WORK.png)
 
-* Access HR_Share → ❌ Denied
+* Access HR_Share →  **Denied**
 
 ![ITDEPT_TO_HR_SHARE_DENY](screenshots/verification/ITDEPT_TO_HR_SHARE_DENY.png)
 
@@ -196,11 +196,11 @@ C:\CompanyData\
 
 ### Finance Users
 
-* Access Finance_Share → ✅ Allowed
+* Access Finance_Share →  **Allowed**
   
 ![FINANCEDEPT_TO_FINANCE_SHARE_WORK](screenshots/verification/FINANCEDEPT_TO_FINANCE_SHARE_WORK.png)
 
-* Access IT_Share → ❌ Denied
+* Access IT_Share →  **Denied**
   
 ![FINANCEDEPT_TO_IT_SHARE_DENY](screenshots/verification/FINANCEDEPT_TO_IT_SHARE_DENY.png)
 
@@ -213,7 +213,7 @@ C:\CompanyData\
 
 ### Shared Folder
 
-* Accessible by all users → ✅
+* Accessible by all users → **Allowed**
 ## HR Users
 ![HRDEPT_TO_SHARED_SHARE_WORK](screenshots/verification/HRDEPT_TO_SHARED_SHARE_WORK.png)
 
@@ -224,7 +224,7 @@ C:\CompanyData\
 ![FINANCEDEPT_TO_SHARED_SHARE_WORK](screenshots/verification/FINANCEDEPT_TO_SHARED_SHARE_WORK.png)
 
 
-## 💡 Key Concepts Demonstrated
+##  Key Concepts Demonstrated
 
 * Role-Based Access Control (RBAC)
 
@@ -236,7 +236,7 @@ C:\CompanyData\
 
 * Access verification and testing
 
-## 🚀 Outcome
+##  Outcome
 
 Successfully implemented a secure, scalable access control model where:
 
@@ -246,7 +246,7 @@ Successfully implemented a secure, scalable access control model where:
 
 * Unauthorized access is prevented
 
-## 📚 Skills Gained
+##  Skills Gained
 
 * Windows Server Administration
 
@@ -258,6 +258,6 @@ Successfully implemented a secure, scalable access control model where:
 
 * Troubleshooting Permissions
 
-## 🧠 Author
+##  Author
 
 Ravi Kumar
